@@ -9,6 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".25*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="app_name" Text="Cycle for Health" FontSize="36"></TextBlock>
+        <Button x:Name="cycling_page" Content="Cycling (Being worked on)" Grid.Row="1" HorizontalAlignment="Stretch" FontSize="24" VerticalAlignment="Stretch"></Button>
+        <Button x:Name="jogging_page" Content="Jogging (TODO)" Grid.Row="2" HorizontalAlignment="Stretch" FontSize="24" VerticalAlignment="Stretch"></Button>
 
     </Grid>
 </Page>
